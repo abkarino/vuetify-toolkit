@@ -15,11 +15,11 @@
     "publish": "npm run lib && node postbuild.js"
   },
   "main": "lib/vuetify-toolkit.umd.js",
-  "unpkg": "vuetify-toolkit.umd.js",
+  "unpkg": "lib/vuetify-toolkit.umd.js",
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.10",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.6.12"
   },
   "devDependencies": {
     "@mdi/font": "^5.0.45",
@@ -45,8 +45,8 @@
     "node-sass": "^4.9.0",
     "sass": "^1.17.4",
     "sass-loader": "^7.1.0",
-    "ts-jest": "^25.2.1",
-    "typescript": "~4.1.5",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4",
     "vue-cli-plugin-vuetify": "~2.4.4",
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.7.2"
@@ -54,10 +54,10 @@
   "peerDependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.10",
-    "vuetify": "^2.4.0"
+    "vuetify": "^2.6.12"
   },
   "homepage": "https://github.com/kolesnikovav/vuetify-toolkit",
-  "jsdelivr": "vuetify-toolkit.umd.js",
+  "jsdelivr": "lib/vuetify-toolkit.umd.js",
   "keywords": [
     "vuetify",
     "vue",
